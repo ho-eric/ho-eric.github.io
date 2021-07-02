@@ -1,0 +1,119 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh;
+}
+
+div#root {
+}
+
+body {
+  background-color: white;
+  color: #2E2E2E;
+  margin: 0;
+  font-family: Roboto;
+  margin-bottom: 20px;
+}
+
+.main {
+  margin: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.headerToolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2196f3;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.EricPic {
+  max-width: 250px;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.introText {
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  padding-left: 10px;
+  text-align: right;
+}
+
+h2 {
+  text-align: center;
+}
+
+.featuredProjects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.proj {
+  max-width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+}
+
+.projLink {
+  text-decoration: none;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 10px;
+  color: black;
+}
+
+.aboutPage {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+video {
+  padding-left: 30px;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-top: 50px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+.summary {
+  
+}
